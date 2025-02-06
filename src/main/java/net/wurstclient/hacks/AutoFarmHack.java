@@ -48,7 +48,7 @@ public final class AutoFarmHack extends Hack
 	implements UpdateListener, RenderListener
 {
 	private final SliderSetting range =
-		new SliderSetting("Range", 5, 1, 6, 0.05, ValueDisplay.DECIMAL);
+		new SliderSetting("Range", 5, 1, 20, 0.05, ValueDisplay.DECIMAL);
 	
 	private final CheckboxSetting replant =
 		new CheckboxSetting("Replant", true);
